@@ -6,10 +6,10 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static('public'));
 
 const dbConfig = {
-  user: 'gopalkumr_test',
+  user: 'techfrek_swetha',
   password: 'gopal7566',
   server: 'sql.bsite.net\\MSSQL2016',
-  database: 'gopalkumr_test',
+  database: 'techfrek_swetha',
   trustServerCertificate: true,
 };
 
@@ -75,4 +75,5 @@ app.post('/login', async (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
+  console.log('http://127.0.0.1:3000/home.html')
 });
