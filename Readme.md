@@ -52,3 +52,12 @@ This project is aimed at simplifying event management, making it more accessible
 We hope you find this application helpful and convenient for your event management needs!
 
 For any questions or assistance, please contact [your contact information].
+
+
+npm install express
+npm install dotenv mssql
+# Event Management Website
+
+The Event Management Website is a platform designed to simplify event registration and management. It provides users with the ability to sign up for events and offers a convenient way for administrators to handle event registration and participation.
+
+node server.js
